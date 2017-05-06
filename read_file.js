@@ -6,7 +6,7 @@ fileToRead = process.argv[2];
 
 console.log("Going to open file!");
 
-fs.readFile(fileToRead, function(err, data){
+fs.readFile(fileToRea, function(err, data){
   if (err){
     return console.error(err);
   }
